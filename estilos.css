@@ -1,0 +1,29 @@
+body{
+	background: #fffbf7;
+}
+
+h1 {
+    color: ##8b8b8bcc;
+    font-family: "Alegreya", serif;
+    font-size: 60px;
+    margin-bottom: 24px;
+    text-align: center;
+}
+
+div{
+	text-align: center;
+}
+
+form{
+	text-align: center;
+}
+
+h4{
+	text-align: center;
+	color:#46484c;
+}
+
+button{
+	color:#fff ;
+	background: #025157;
+}
