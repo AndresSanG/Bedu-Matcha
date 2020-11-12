@@ -32,31 +32,32 @@ nav{
 	display: inline-block;
 }
 
-.header{
-	margin-top:40px ;
-	margin-left:20px;
-	margin-right:20px; 
-
+.header>*{
 	margin:40px 20px 0 20px;
+	vertical-align: middle;
+  	display: inline-block;
+    font-size: 16px;
+    line-height: 45px;
+    height: 100%;
 }
 li{
+	vertical-align: middle;
 	display: inline;
 	padding: 25px;
 	color: #025157;
 }
 .header>*{
-display: inline-block;
-  font-size: 16px;
   vertical-align: middle;
-  height: 100%;
-  line-height: 45px;
 }
 .logo{
+	vertical-align: middle;
 	width: 20%;
 	font-size: 16px;
 	height: 100%;
+	margin-bottom: 0;
 }
 .navbar{
+	vertical-align: middle;
 	width: 50%;
 	font-size: 16px;
 	text-align: center;
@@ -64,22 +65,27 @@ display: inline-block;
 }
 .actions{
 	text-align: right;
+	/*
+	vertical-align: middle;
 	width: 30%;
 	font-size: 14px;
 	display: inline;
 	padding-right: 10px;
 	padding-left: 10px; 
+	*/
 }
 .startfree{
-	background-color: #67b54b;
-    padding: 12px 14px;
-    border:0px;
+	color: white;
+    background-color: #67b54b;
+    padding-left: 14px;
+    padding-right: 14px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    border: 0;
     border-radius: 5px;
-    font-size: 14px;
-    margin-left: 15px;
-
 }
 .inmail{
+	text-align: right;
     width: 250px;
     height: 55px;
     padding: 0px;
@@ -107,4 +113,5 @@ a{
 }
 .creditCard{
 	text-align: center;
+	color: #8b8b8bcc;
 }
