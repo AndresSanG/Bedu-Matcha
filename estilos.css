@@ -3,13 +3,14 @@ body{
 }
 
 h1 {
-    color: ##8b8b8bcc;
-    font-family: "Roboto", serif;
-    font-size: 60px;
+
+    color:#025157;
+    font-family: 'Rammetto One', cursive;
+    font-size: 40px;
     margin-bottom: 24px;
     text-align: center;
 }
-
+ 
 .capterra{
 	text-align: center;
 }
@@ -70,7 +71,7 @@ display: inline-block;
 	padding-left: 10px; 
 }
 .startfree{
-	 background-color: #67b54b;
+	background-color: #67b54b;
     padding: 12px 14px;
     border:0px;
     border-radius: 5px;
