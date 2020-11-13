@@ -64,7 +64,9 @@ li{
 	 
 }
 .actions{
+	font-size: 14px;
 	text-align: right;
+	float: right;
 	/*
 	vertical-align: middle;
 	width: 30%;
@@ -83,6 +85,7 @@ li{
     padding-bottom: 12px;
     border: 0;
     border-radius: 5px;
+    margin-right: 10px;
 }
 .inmail{
 	text-align: right;
@@ -102,13 +105,13 @@ li{
     border: 2px;
     border-radius: 0px 8px 8px 0px;
     margin-left: -2px;
-    cursor: pointer;
 }
 a{
 	 text-decoration: none;
 	 color: gray;
 }
 .login{
+	margin-left:10px ;
 	color: #67b54b;
 }
 .creditCard{
